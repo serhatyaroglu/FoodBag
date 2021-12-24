@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7911009B27609C2E00850044 /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7911009A27609C2E00850044 /* DetayVC.swift */; };
+		791100A12760A72400850044 /* SiparisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791100A02760A72400850044 /* SiparisTableViewCell.swift */; };
+		791100A32760B42400850044 /* SepetYemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791100A22760B42400850044 /* SepetYemekler.swift */; };
+		791100A52760B68600850044 /* SepetYemeklerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791100A42760B68600850044 /* SepetYemeklerCevap.swift */; };
+		79CA0D0B276C68A90040EF56 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 79CA0D0A276C68A90040EF56 /* Alamofire */; };
+		79CA0D0D276C68B90040EF56 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 79CA0D0C276C68B90040EF56 /* Kingfisher */; };
 		79DA190B275E409E00A65918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA190A275E409E00A65918 /* AppDelegate.swift */; };
 		79DA190D275E409E00A65918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA190C275E409E00A65918 /* SceneDelegate.swift */; };
-		79DA190F275E409E00A65918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA190E275E409E00A65918 /* ViewController.swift */; };
+		79DA190F275E409E00A65918 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA190E275E409E00A65918 /* AnasayfaVC.swift */; };
 		79DA1912275E409E00A65918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA1910275E409E00A65918 /* Main.storyboard */; };
 		79DA1914275E409F00A65918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DA1913275E409F00A65918 /* Assets.xcassets */; };
 		79DA1917275E409F00A65918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA1915275E409F00A65918 /* LaunchScreen.storyboard */; };
 		79DA1922275E409F00A65918 /* FoodBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1921275E409F00A65918 /* FoodBagTests.swift */; };
 		79DA192C275E409F00A65918 /* FoodBagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA192B275E409F00A65918 /* FoodBagUITests.swift */; };
 		79DA192E275E409F00A65918 /* FoodBagUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA192D275E409F00A65918 /* FoodBagUITestsLaunchTests.swift */; };
+		79DA193B275E592A00A65918 /* anasayfaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA193A275E592A00A65918 /* anasayfaCollectionViewCell.swift */; };
+		79DA193D275E597C00A65918 /* SiparislerimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA193C275E597C00A65918 /* SiparislerimVC.swift */; };
+		79DA1958275E5C5700A65918 /* AnasayfaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1957275E5C5700A65918 /* AnasayfaProtocol.swift */; };
+		79DA195A275E5C6000A65918 /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1959275E5C6000A65918 /* AnasayfaInteractor.swift */; };
+		79DA195C275E5C6800A65918 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA195B275E5C6800A65918 /* AnasayfaPresenter.swift */; };
+		79DA195E275E5C7100A65918 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA195D275E5C7100A65918 /* AnasayfaRouter.swift */; };
+		79DA1960275E5CB900A65918 /* DetayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA195F275E5CB900A65918 /* DetayProtocol.swift */; };
+		79DA1962275E5CC100A65918 /* DetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1961275E5CC100A65918 /* DetayInteractor.swift */; };
+		79DA1964275E5CC800A65918 /* DetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1963275E5CC800A65918 /* DetayPresenter.swift */; };
+		79DA1966275E5CCF00A65918 /* DetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1965275E5CCF00A65918 /* DetayRouter.swift */; };
+		79DA1968275E5CE700A65918 /* SepetimProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1967275E5CE700A65918 /* SepetimProtocol.swift */; };
+		79DA196A275E5CF100A65918 /* SepetimInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1969275E5CF100A65918 /* SepetimInteractor.swift */; };
+		79DA196C275E5CFE00A65918 /* SepetimPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA196B275E5CFE00A65918 /* SepetimPresenter.swift */; };
+		79DA196E275E5D0700A65918 /* SepetimRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA196D275E5D0700A65918 /* SepetimRouter.swift */; };
+		79DA1976275E67CB00A65918 /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1975275E67CB00A65918 /* Yemekler.swift */; };
+		79DA1978275E67DB00A65918 /* YemekCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA1977275E67DB00A65918 /* YemekCevap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7911009A27609C2E00850044 /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
+		791100A02760A72400850044 /* SiparisTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparisTableViewCell.swift; sourceTree = "<group>"; };
+		791100A22760B42400850044 /* SepetYemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetYemekler.swift; sourceTree = "<group>"; };
+		791100A42760B68600850044 /* SepetYemeklerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetYemeklerCevap.swift; sourceTree = "<group>"; };
 		79DA1907275E409E00A65918 /* FoodBag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodBag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA190A275E409E00A65918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79DA190C275E409E00A65918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79DA190E275E409E00A65918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79DA190E275E409E00A65918 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		79DA1911275E409E00A65918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79DA1913275E409F00A65918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79DA1916275E409F00A65918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,22 @@
 		79DA1927275E409F00A65918 /* FoodBagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodBagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA192B275E409F00A65918 /* FoodBagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBagUITests.swift; sourceTree = "<group>"; };
 		79DA192D275E409F00A65918 /* FoodBagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBagUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79DA193A275E592A00A65918 /* anasayfaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anasayfaCollectionViewCell.swift; sourceTree = "<group>"; };
+		79DA193C275E597C00A65918 /* SiparislerimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparislerimVC.swift; sourceTree = "<group>"; };
+		79DA1957275E5C5700A65918 /* AnasayfaProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocol.swift; sourceTree = "<group>"; };
+		79DA1959275E5C6000A65918 /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		79DA195B275E5C6800A65918 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		79DA195D275E5C7100A65918 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		79DA195F275E5CB900A65918 /* DetayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayProtocol.swift; sourceTree = "<group>"; };
+		79DA1961275E5CC100A65918 /* DetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayInteractor.swift; sourceTree = "<group>"; };
+		79DA1963275E5CC800A65918 /* DetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayPresenter.swift; sourceTree = "<group>"; };
+		79DA1965275E5CCF00A65918 /* DetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayRouter.swift; sourceTree = "<group>"; };
+		79DA1967275E5CE700A65918 /* SepetimProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetimProtocol.swift; sourceTree = "<group>"; };
+		79DA1969275E5CF100A65918 /* SepetimInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetimInteractor.swift; sourceTree = "<group>"; };
+		79DA196B275E5CFE00A65918 /* SepetimPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetimPresenter.swift; sourceTree = "<group>"; };
+		79DA196D275E5D0700A65918 /* SepetimRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetimRouter.swift; sourceTree = "<group>"; };
+		79DA1975275E67CB00A65918 /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
+		79DA1977275E67DB00A65918 /* YemekCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekCevap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CA0D0D276C68B90040EF56 /* Kingfisher in Frameworks */,
+				79CA0D0B276C68A90040EF56 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +120,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7911009F2760A70E00850044 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				791100A02760A72400850044 /* SiparisTableViewCell.swift */,
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		79CA0D09276C68A90040EF56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79DA18FE275E409E00A65918 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +142,7 @@
 				79DA1920275E409F00A65918 /* FoodBagTests */,
 				79DA192A275E409F00A65918 /* FoodBagUITests */,
 				79DA1908275E409E00A65918 /* Products */,
+				79CA0D09276C68A90040EF56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +159,9 @@
 		79DA1909275E409E00A65918 /* FoodBag */ = {
 			isa = PBXGroup;
 			children = (
+				79DA193F275E5A3700A65918 /* App-Module */,
 				79DA190A275E409E00A65918 /* AppDelegate.swift */,
 				79DA190C275E409E00A65918 /* SceneDelegate.swift */,
-				79DA190E275E409E00A65918 /* ViewController.swift */,
 				79DA1910275E409E00A65918 /* Main.storyboard */,
 				79DA1913275E409F00A65918 /* Assets.xcassets */,
 				79DA1915275E409F00A65918 /* LaunchScreen.storyboard */,
@@ -127,6 +187,194 @@
 			path = FoodBagUITests;
 			sourceTree = "<group>";
 		};
+		79DA193F275E5A3700A65918 /* App-Module */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1940275E5B2700A65918 /* Entity */,
+				79DA1943275E5B4F00A65918 /* SepetimVc */,
+				79DA1942275E5B4700A65918 /* DetayVC */,
+				79DA1941275E5B3500A65918 /* AnasayfaVC */,
+			);
+			path = "App-Module";
+			sourceTree = "<group>";
+		};
+		79DA1940275E5B2700A65918 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1975275E67CB00A65918 /* Yemekler.swift */,
+				79DA1977275E67DB00A65918 /* YemekCevap.swift */,
+				791100A22760B42400850044 /* SepetYemekler.swift */,
+				791100A42760B68600850044 /* SepetYemeklerCevap.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		79DA1941275E5B3500A65918 /* AnasayfaVC */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1949275E5B9500A65918 /* router */,
+				79DA1948275E5B9000A65918 /* presenter */,
+				79DA1947275E5B8800A65918 /* interactor */,
+				79DA1946275E5B7F00A65918 /* protocol */,
+				79DA1945275E5B7700A65918 /* collectionView */,
+				79DA1944275E5B6B00A65918 /* view */,
+			);
+			path = AnasayfaVC;
+			sourceTree = "<group>";
+		};
+		79DA1942275E5B4700A65918 /* DetayVC */ = {
+			isa = PBXGroup;
+			children = (
+				79DA194F275E5BD900A65918 /* router */,
+				79DA194E275E5BD600A65918 /* presenter */,
+				79DA194D275E5BD100A65918 /* interactor */,
+				79DA194B275E5BB200A65918 /* protocol */,
+				79DA194A275E5BAE00A65918 /* view */,
+			);
+			path = DetayVC;
+			sourceTree = "<group>";
+		};
+		79DA1943275E5B4F00A65918 /* SepetimVc */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1953275E5BEE00A65918 /* router */,
+				79DA1952275E5BE800A65918 /* presenter */,
+				79DA1951275E5BE200A65918 /* interactor */,
+				79DA1950275E5BDE00A65918 /* protocol */,
+				7911009F2760A70E00850044 /* tableViewCell */,
+				79DA194C275E5BB800A65918 /* view */,
+			);
+			path = SepetimVc;
+			sourceTree = "<group>";
+		};
+		79DA1944275E5B6B00A65918 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				79DA190E275E409E00A65918 /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		79DA1945275E5B7700A65918 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				79DA193A275E592A00A65918 /* anasayfaCollectionViewCell.swift */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		79DA1946275E5B7F00A65918 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1957275E5C5700A65918 /* AnasayfaProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		79DA1947275E5B8800A65918 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1959275E5C6000A65918 /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		79DA1948275E5B9000A65918 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				79DA195B275E5C6800A65918 /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		79DA1949275E5B9500A65918 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				79DA195D275E5C7100A65918 /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		79DA194A275E5BAE00A65918 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7911009A27609C2E00850044 /* DetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		79DA194B275E5BB200A65918 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				79DA195F275E5CB900A65918 /* DetayProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		79DA194C275E5BB800A65918 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				79DA193C275E597C00A65918 /* SiparislerimVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		79DA194D275E5BD100A65918 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1961275E5CC100A65918 /* DetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		79DA194E275E5BD600A65918 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1963275E5CC800A65918 /* DetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		79DA194F275E5BD900A65918 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1965275E5CCF00A65918 /* DetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		79DA1950275E5BDE00A65918 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1967275E5CE700A65918 /* SepetimProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		79DA1951275E5BE200A65918 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				79DA1969275E5CF100A65918 /* SepetimInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		79DA1952275E5BE800A65918 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				79DA196B275E5CFE00A65918 /* SepetimPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		79DA1953275E5BEE00A65918 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				79DA196D275E5D0700A65918 /* SepetimRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +391,10 @@
 			dependencies = (
 			);
 			name = FoodBag;
+			packageProductDependencies = (
+				79CA0D0A276C68A90040EF56 /* Alamofire */,
+				79CA0D0C276C68B90040EF56 /* Kingfisher */,
+			);
 			productName = FoodBag;
 			productReference = 79DA1907275E409E00A65918 /* FoodBag.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +467,10 @@
 				Base,
 			);
 			mainGroup = 79DA18FE275E409E00A65918;
+			packageReferences = (
+				79DA196F275E5D6500A65918 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				79DA1972275E5D8C00A65918 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 79DA1908275E409E00A65918 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +514,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DA190F275E409E00A65918 /* ViewController.swift in Sources */,
+				7911009B27609C2E00850044 /* DetayVC.swift in Sources */,
+				791100A52760B68600850044 /* SepetYemeklerCevap.swift in Sources */,
+				79DA1978275E67DB00A65918 /* YemekCevap.swift in Sources */,
+				79DA196C275E5CFE00A65918 /* SepetimPresenter.swift in Sources */,
+				79DA1966275E5CCF00A65918 /* DetayRouter.swift in Sources */,
+				79DA196E275E5D0700A65918 /* SepetimRouter.swift in Sources */,
+				79DA1968275E5CE700A65918 /* SepetimProtocol.swift in Sources */,
+				79DA195E275E5C7100A65918 /* AnasayfaRouter.swift in Sources */,
+				79DA1976275E67CB00A65918 /* Yemekler.swift in Sources */,
+				79DA193B275E592A00A65918 /* anasayfaCollectionViewCell.swift in Sources */,
+				79DA1964275E5CC800A65918 /* DetayPresenter.swift in Sources */,
+				79DA193D275E597C00A65918 /* SiparislerimVC.swift in Sources */,
+				79DA190F275E409E00A65918 /* AnasayfaVC.swift in Sources */,
+				79DA1962275E5CC100A65918 /* DetayInteractor.swift in Sources */,
+				79DA1958275E5C5700A65918 /* AnasayfaProtocol.swift in Sources */,
 				79DA190B275E409E00A65918 /* AppDelegate.swift in Sources */,
+				791100A32760B42400850044 /* SepetYemekler.swift in Sources */,
 				79DA190D275E409E00A65918 /* SceneDelegate.swift in Sources */,
+				79DA196A275E5CF100A65918 /* SepetimInteractor.swift in Sources */,
+				79DA195C275E5C6800A65918 /* AnasayfaPresenter.swift in Sources */,
+				79DA195A275E5C6000A65918 /* AnasayfaInteractor.swift in Sources */,
+				79DA1960275E5CB900A65918 /* DetayProtocol.swift in Sources */,
+				791100A12760A72400850044 /* SiparisTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +900,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79DA196F275E5D6500A65918 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		79DA1972275E5D8C00A65918 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79CA0D0A276C68A90040EF56 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79DA196F275E5D6500A65918 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		79CA0D0C276C68B90040EF56 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79DA1972275E5D8C00A65918 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79DA18FF275E409E00A65918 /* Project object */;
 }
